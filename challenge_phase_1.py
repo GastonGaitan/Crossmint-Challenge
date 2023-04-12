@@ -23,7 +23,7 @@ POLIANET_API_URL = 'https://challenge.crossmint.io/api/polyanets'
 
 # I accessed to my candidate map to see the JSON matrix dimensions
 if __name__ == '__main__':
-    # I fint the array dimension.
+    # I get the array dimensions.
     content = get_array_dimension(GUIDANCE_ARRAY_URL)
     # For each row in the array:
     print("Posting Polyanets:")
